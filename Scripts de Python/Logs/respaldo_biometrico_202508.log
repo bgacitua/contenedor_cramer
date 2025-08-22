@@ -1,0 +1,73 @@
+2025-08-22 09:52:11,017 - INFO - ============================================================
+2025-08-22 09:52:11,017 - INFO - 🚀 INICIANDO RESPALDO AUTOMATIZADO BIOMÉTRICO
+2025-08-22 09:52:11,017 - INFO - 🕐 Hora de inicio: 2025-08-22 09:52:11
+2025-08-22 09:52:11,017 - INFO - ============================================================
+2025-08-22 09:52:11,045 - INFO - ✅ Conexión a SQL Server establecida exitosamente
+2025-08-22 09:52:11,045 - INFO - 📋 Ejecutando consulta SQL...
+2025-08-22 09:52:11,045 - INFO - 📅 Rango de consulta: 2025-08-01 a 2025-08-22
+2025-08-22 09:52:16,801 - INFO - 🔧 Procesando DataFrame...
+2025-08-22 09:52:16,857 - INFO - ✅ DataFrame procesado: 16,764 registros, 18 columnas
+2025-08-22 09:52:16,959 - INFO - ✅ RESPALDO CSV GENERADO EXITOSAMENTE
+2025-08-22 09:52:16,959 - INFO - 📁 Archivo: C:\Users\bgacitua\Desktop\Repositorio_GitHub\Scripts de Python\Respaldos_Biometrico\Respaldo_Morpho_AccessLog_20250822_095216.csv
+2025-08-22 09:52:16,960 - INFO - 📊 Registros: 16,764
+2025-08-22 09:52:16,960 - INFO - 📋 Columnas: 18
+2025-08-22 09:52:16,960 - INFO - 💾 Tamaño: 2497.84 KB
+2025-08-22 09:52:16,961 - INFO - 👥 Empleados únicos: 736
+2025-08-22 09:52:16,963 - INFO - 📅 Fechas: 2025-08-01 a 2025-08-22
+2025-08-22 09:52:16,964 - INFO - ✅ Con asistencia: 9,209
+2025-08-22 09:52:16,966 - INFO - ❌ Ausentes: 7,555
+2025-08-22 09:52:16,967 - INFO - ============================================================
+2025-08-22 09:52:16,968 - INFO - ✅ RESPALDO COMPLETADO EXITOSAMENTE
+2025-08-22 09:52:16,968 - INFO - ⏱️ Duración total: 5.95 segundos
+2025-08-22 09:52:16,968 - INFO - 📁 Archivo generado: Respaldo_Morpho_AccessLog_20250822_095216.csv
+2025-08-22 09:52:16,968 - INFO - ============================================================
+2025-08-22 10:19:33,084 - INFO - ============================================================
+2025-08-22 10:19:33,085 - INFO - 🚀 INICIANDO RESPALDO AUTOMATIZADO BIOMÉTRICO
+2025-08-22 10:19:33,085 - INFO - 🕐 Hora de inicio: 2025-08-22 10:19:33
+2025-08-22 10:19:33,085 - INFO - ============================================================
+2025-08-22 10:19:33,168 - INFO - ✅ Conexión a SQL Server establecida exitosamente
+2025-08-22 10:19:33,168 - INFO - 📋 Ejecutando consulta SQL...
+2025-08-22 10:19:33,169 - INFO - 📅 Rango de consulta: 2025-08-01 a 2025-08-22
+2025-08-22 10:19:38,374 - INFO - 🔧 Procesando DataFrame...
+2025-08-22 10:19:38,433 - INFO - ✅ DataFrame procesado: 16,764 registros, 18 columnas
+2025-08-22 10:19:38,533 - INFO - ✅ RESPALDO CSV GENERADO EXITOSAMENTE
+2025-08-22 10:19:38,533 - INFO - 📁 Archivo: C:\Users\bgacitua\Desktop\Repositorio_GitHub\Scripts de Python\Respaldos_Biometrico\Respaldo_Morpho_AccessLog_20250822_101938.csv
+2025-08-22 10:19:38,533 - INFO - 📊 Registros: 16,764
+2025-08-22 10:19:38,533 - INFO - 📋 Columnas: 18
+2025-08-22 10:19:38,534 - INFO - 💾 Tamaño: 2497.85 KB
+2025-08-22 10:19:38,534 - INFO - 👥 Empleados únicos: 736
+2025-08-22 10:19:38,536 - INFO - 📅 Fechas: 2025-08-01 a 2025-08-22
+2025-08-22 10:19:38,538 - INFO - ✅ Con asistencia: 9,213
+2025-08-22 10:19:38,539 - INFO - ❌ Ausentes: 7,551
+2025-08-22 10:19:38,540 - INFO - 🗃️ Limpieza automática desactivada - archivos conservados indefinidamente
+2025-08-22 10:19:38,540 - INFO - ============================================================
+2025-08-22 10:19:38,540 - INFO - ✅ RESPALDO COMPLETADO EXITOSAMENTE
+2025-08-22 10:19:38,540 - INFO - ⏱️ Duración total: 5.46 segundos
+2025-08-22 10:19:38,540 - INFO - 📁 Archivo generado: Respaldo_Morpho_AccessLog_20250822_101938.csv
+2025-08-22 10:19:38,541 - INFO - ============================================================
+2025-08-22 11:02:16,961 - INFO - 🔧 Sistema de logging inicializado - Archivo: C:\Users\bgacitua\Desktop\Repositorio_GitHub\Scripts de Python\Logs\respaldo_biometrico_202508.log
+2025-08-22 11:02:16,962 - INFO - 🕐 Timestamp de inicio: 2025-08-22 11:02:16.962153
+2025-08-22 11:02:16,962 - INFO - ============================================================
+2025-08-22 11:02:16,962 - INFO - 🚀 INICIANDO RESPALDO AUTOMATIZADO BIOMÉTRICO
+2025-08-22 11:02:16,962 - INFO - 🕐 Hora de inicio: 2025-08-22 11:02:16
+2025-08-22 11:02:16,963 - INFO - ============================================================
+2025-08-22 11:02:17,057 - INFO - ✅ Conexión a SQL Server establecida exitosamente
+2025-08-22 11:02:17,058 - INFO - 📋 Ejecutando consulta SQL...
+2025-08-22 11:02:17,058 - INFO - 📅 Rango de consulta: 2025-08-01 a 2025-08-22
+2025-08-22 11:02:22,354 - INFO - 🔧 Procesando DataFrame...
+2025-08-22 11:02:22,409 - INFO - ✅ DataFrame procesado: 16,764 registros, 18 columnas
+2025-08-22 11:02:22,505 - INFO - ✅ RESPALDO CSV GENERADO EXITOSAMENTE
+2025-08-22 11:02:22,506 - INFO - 📁 Archivo: C:\Users\bgacitua\Desktop\Repositorio_GitHub\Scripts de Python\Respaldos_Biometrico\Respaldo_Morpho_AccessLog_20250822_110222.csv
+2025-08-22 11:02:22,506 - INFO - 📊 Registros: 16,764
+2025-08-22 11:02:22,506 - INFO - 📋 Columnas: 18
+2025-08-22 11:02:22,506 - INFO - 💾 Tamaño: 2497.87 KB
+2025-08-22 11:02:22,507 - INFO - 👥 Empleados únicos: 736
+2025-08-22 11:02:22,509 - INFO - 📅 Fechas: 2025-08-01 a 2025-08-22
+2025-08-22 11:02:22,510 - INFO - ✅ Con asistencia: 9,217
+2025-08-22 11:02:22,511 - INFO - ❌ Ausentes: 7,547
+2025-08-22 11:02:22,511 - INFO - 🗃️ Limpieza automática desactivada - archivos conservados indefinidamente
+2025-08-22 11:02:22,511 - INFO - ============================================================
+2025-08-22 11:02:22,512 - INFO - ✅ RESPALDO COMPLETADO EXITOSAMENTE
+2025-08-22 11:02:22,512 - INFO - ⏱️ Duración total: 5.55 segundos
+2025-08-22 11:02:22,512 - INFO - 📁 Archivo generado: Respaldo_Morpho_AccessLog_20250822_110222.csv
+2025-08-22 11:02:22,512 - INFO - ============================================================

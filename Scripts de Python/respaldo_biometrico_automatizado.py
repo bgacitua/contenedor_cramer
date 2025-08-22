@@ -49,19 +49,49 @@ class RespaldoBiometrico:
         self.setup_logging()
         
     def setup_logging(self):
-        """Configura el sistema de logging"""
+        """Configura el sistema de logging con manejo robusto"""
         log_filename = self.LOGS_DIR / f"respaldo_biometrico_{datetime.date.today().strftime('%Y%m')}.log"
         
-        logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler(log_filename, encoding='utf-8'),
-                logging.StreamHandler(sys.stdout)
-            ]
-        )
-        
-        self.logger = logging.getLogger(__name__)
+        # Asegurar que la carpeta Logs existe y es escribible
+        try:
+            self.LOGS_DIR.mkdir(parents=True, exist_ok=True)
+            
+            # Configurar logging con flush inmediato
+            logging.basicConfig(
+                level=logging.INFO,
+                format='%(asctime)s - %(levelname)s - %(message)s',
+                handlers=[
+                    logging.FileHandler(log_filename, encoding='utf-8', mode='a'),
+                    logging.StreamHandler(sys.stdout)
+                ],
+                force=True  # Forzar reconfiguración
+            )
+            
+            self.logger = logging.getLogger(__name__)
+            
+            # Forzar flush de todos los handlers
+            for handler in self.logger.handlers:
+                handler.flush()
+                
+            # Log de prueba inmediato
+            self.logger.info(f"🔧 Sistema de logging inicializado - Archivo: {log_filename}")
+            self.logger.info(f"🕐 Timestamp de inicio: {datetime.datetime.now()}")
+            
+            # Forzar escritura inmediata
+            if self.logger.handlers:
+                self.logger.handlers[0].flush()
+                
+        except Exception as e:
+            # Fallback: logging solo a consola si hay problema con archivos
+            logging.basicConfig(
+                level=logging.INFO,
+                format='%(asctime)s - %(levelname)s - %(message)s',
+                handlers=[logging.StreamHandler(sys.stdout)],
+                force=True
+            )
+            self.logger = logging.getLogger(__name__)
+            self.logger.error(f"❌ Error configurando logging a archivo: {e}")
+            self.logger.info("📝 Logging configurado solo para consola")
         
     def conectar_bd(self):
         """Establece conexión con SQL Server MorphoManager"""
@@ -281,8 +311,9 @@ class RespaldoBiometrico:
             if not archivo_generado:
                 raise Exception("Error al generar archivo CSV")
             
-            # 5. Limpiar archivos antiguos
-            self.limpiar_archivos_antiguos()
+            # 5. Limpiar archivos antiguos - DESACTIVADO
+            # self.limpiar_archivos_antiguos()  # Comentado para conservar todos los archivos
+            self.logger.info("🗃️ Limpieza automática desactivada - archivos conservados indefinidamente")
             
             # 6. Resumen final
             duracion = datetime.datetime.now() - inicio
