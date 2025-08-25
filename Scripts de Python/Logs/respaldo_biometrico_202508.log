@@ -71,3 +71,29 @@
 2025-08-22 11:02:22,512 - INFO - ⏱️ Duración total: 5.55 segundos
 2025-08-22 11:02:22,512 - INFO - 📁 Archivo generado: Respaldo_Morpho_AccessLog_20250822_110222.csv
 2025-08-22 11:02:22,512 - INFO - ============================================================
+2025-08-25 07:56:53,955 - INFO - 🔧 Sistema de logging inicializado - Archivo: C:\Users\bgacitua\Desktop\Repositorio_GitHub\Scripts de Python\Logs\respaldo_biometrico_202508.log
+2025-08-25 07:56:53,955 - INFO - 🕐 Timestamp de inicio: 2025-08-25 07:56:53.955792
+2025-08-25 07:56:53,956 - INFO - ============================================================
+2025-08-25 07:56:53,956 - INFO - 🚀 INICIANDO RESPALDO AUTOMATIZADO BIOMÉTRICO
+2025-08-25 07:56:53,956 - INFO - 🕐 Hora de inicio: 2025-08-25 07:56:53
+2025-08-25 07:56:53,956 - INFO - ============================================================
+2025-08-25 07:56:54,185 - INFO - ✅ Conexión a SQL Server establecida exitosamente
+2025-08-25 07:56:54,185 - INFO - 📋 Ejecutando consulta SQL...
+2025-08-25 07:56:54,186 - INFO - 📅 Rango de consulta: 2025-08-01 a 2025-08-25
+2025-08-25 07:57:01,909 - INFO - 🔧 Procesando DataFrame...
+2025-08-25 07:57:01,985 - INFO - ✅ DataFrame procesado: 19,075 registros, 18 columnas
+2025-08-25 07:57:02,109 - INFO - ✅ RESPALDO CSV GENERADO EXITOSAMENTE
+2025-08-25 07:57:02,110 - INFO - 📁 Archivo: C:\Users\bgacitua\Desktop\Repositorio_GitHub\Scripts de Python\Respaldos_Biometrico\Respaldo_Morpho_AccessLog_20250825_075701.csv
+2025-08-25 07:57:02,110 - INFO - 📊 Registros: 19,075
+2025-08-25 07:57:02,110 - INFO - 📋 Columnas: 18
+2025-08-25 07:57:02,110 - INFO - 💾 Tamaño: 2842.56 KB
+2025-08-25 07:57:02,111 - INFO - 👥 Empleados únicos: 737
+2025-08-25 07:57:02,113 - INFO - 📅 Fechas: 2025-08-01 a 2025-08-25
+2025-08-25 07:57:02,115 - INFO - ✅ Con asistencia: 9,666
+2025-08-25 07:57:02,117 - INFO - ❌ Ausentes: 9,409
+2025-08-25 07:57:02,117 - INFO - 🗃️ Limpieza automática desactivada - archivos conservados indefinidamente
+2025-08-25 07:57:02,118 - INFO - ============================================================
+2025-08-25 07:57:02,118 - INFO - ✅ RESPALDO COMPLETADO EXITOSAMENTE
+2025-08-25 07:57:02,118 - INFO - ⏱️ Duración total: 8.16 segundos
+2025-08-25 07:57:02,118 - INFO - 📁 Archivo generado: Respaldo_Morpho_AccessLog_20250825_075701.csv
+2025-08-25 07:57:02,119 - INFO - ============================================================
