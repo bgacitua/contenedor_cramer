@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS buk_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    source_endpoint VARCHAR(255) NOT NULL,
+    source_url VARCHAR(255) NOT NULL,
+    fecha_extraccion DATETIME NOT NULL,
+    start_date DATETIME,
+    end_date DATETIME,
+    application_date DATETIME,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS api_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    log_message TEXT NOT NULL,
+    log_level VARCHAR(50) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
