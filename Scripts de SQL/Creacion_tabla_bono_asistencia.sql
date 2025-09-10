@@ -6,6 +6,7 @@ SELECT
 `name_role`
 FROM employees
 WHERE name_role IN (
+'Analista de Calidad y Procesos',
 'Asistente De Servicios Generales', 
 'Analista de Control De Calidad', 
 'Analista De Microbiología', 

@@ -54,6 +54,7 @@ INNER JOIN
     employees e ON ci.employee_id = e.id
 WHERE ci.start_date > '2025-08-05' and ci.start_date < '2025-09-04'
 AND e.name_role IN (
+'Analista de Calidad y Procesos',
 'Asistente De Servicios Generales', 
 'Analista de Control De Calidad', 
 'Analista De Microbiología', 
